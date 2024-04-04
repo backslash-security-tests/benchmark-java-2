@@ -8,8 +8,8 @@ trigger:
 pr:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: default
+
 
 steps:
 - task: test-backslash-task-v1@0
